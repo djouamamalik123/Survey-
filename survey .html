@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey</title>
+    <style>
+    body{font-family:arial;background-color:orange;color:black;}
+    header{font-size:30px;border-radius:10px;font-weight:150px;text-align:center;background-color:yellow;padding:10px}
+    #description{border-radius:10px;text-align:center;font-size:25px;background-color:green;margin-left:20px;margin-right:20px;}
+    h3{ border-radius:10px;text-align:center;background-color:green;}
+    select{padding:4px;border:none;background-color:white;color:black;border-radius:10px;
+  position:absolute;top:px;
+  left:155px;}
+    #survey-form{text-align:center;}
+    #name,#email,#number{display:flex;padding:5px ;margin:10px auto;border:blue solid;border-radius:10px;}
+    button {
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  }
+    button:hover {
+    transform: scale(1.5);}}
+    </style>
+    </head>
+<body>
+  <header>
+<p>your food preferences </p>
+  </header>
+
+<h1 id="description">Choose your type of food</h1>
+
+<form id="survey-form">
+  
+  <label id="name-label"for="name"><b>Name</b> </label> <input id="name"type="text"placeholder="jhon" required<br><br>
+    
+    <label id="email-label" for="email"><b>Email</b></label>  <input id="email"type="email" name="email"placeholder="mark280@gmail.com" required><br>
+    
+  <label id="number-label"for="number"type"number"><b>Number</b></label>  
+    <input id="number" type="number "min="0" max="100" placeholder="0793423543" required>
+                      <br><br>
+    
+    <h2 style="max-width:100px;margin:auto;background-color:green;">Gender:</h2>
+    
+  <label id="name-label" for="name">male</label>
+  <input type="radio"name="gender"value="male">
+                <label for="name">female</label>
+  <input type="radio" name="gender"value="female">
+    <hr style="width:300px;height:2px;">
+    <br>
+    <h3>how many days each week do you eat breakfast?</h3>
+  <select id="dropdown">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+  </select><br>
+    
+    <br> <br>
+    <h4 style="background-color:green;font-size:18px;border-radius:10px;">what type of eater are you in general?</h4>
+ <label id="name-label" for="name"><b>fish</label>
+  <input type="checkbox" id="choice" name="fish" value="fish">
+  <label id="name-label"for="name">chicken </chicken>
+  <input type ="checkbox"
+  id="choice" name="chicken"value ="chicken">
+  <label id="name-label" for ="name">fruits and vegetable</b></label>
+  <input type ="checkbox" id="choice" name ="salad" value="salad">
+  <br><br>
+    
+<label for ="comments"><b>additional comment</b></label>
+    <br>
+    
+  <textarea style="background-color:white;border-radius:10px; id="comments"name="comments"></textarea><br><br>
+  
+  <button style="background-color:black;color:white ;width:100px;height:40px;border-radius:15px; id="submit">submit</button>
+
+</form>
+
+</body>
+  </html>
+
+
+
+
+
+
+
+
